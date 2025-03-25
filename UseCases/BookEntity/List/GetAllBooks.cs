@@ -5,7 +5,7 @@ using Core;
 
 namespace UseCases.BookEntity.List
 {
-    class GetAllBooks
+    public class GetAllBooks
     {
         public record Query() : IQuery<Result<List<BookDTO2>>>;
 
